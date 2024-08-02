@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #ff0000, #ffcc00);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #ffc107;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff5733;
+}
+
+.bg-custom {
+  background-color: black;
+  border: 3px solid #ffc107;
+  box-shadow: 0 0 15px 5px rgba(255, 255, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.bg-footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 0;
+  text-align: center;
+  color: #ffc107;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffc107;
+}
+
+button {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: 2px solid #ffc107;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffc107;
+  color: #ff0000;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto rgba(255, 255, 0, 0.5);
+}
